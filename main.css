@@ -152,316 +152,96 @@
 .experience {
     display: flex;
     height: 80vh;
-    width: 100%;
+    /* width: 100%; */
     padding: 2rem 7%;
     justify-content: space-between;
-    padding-top: 10rem; 
-}
-
-.exp-txt {
-    color: var(--text-color);
-    /* font-size: 1.9rem; */
-    line-height: 2rem;
-    text-align: justify;
-    margin-right: 10rem;
+    /* padding-top: 10rem;  */
+    align-items: center;
+    gap: 4rem;
 }
 
 
 .exp-img img{
     width: 500px;
-    height: 500px;
+    /* height: 500px; */
 }
 
 
-
-.about {
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    gap: 4rem;
+.exp-txt {
+    color: var(--text-color);
+    font-size:.9rem;
+    /* line-height: 2rem; */
+    text-align: justify;
+    /* margin-right: 10rem; */
 }
 
-.about-img img {
-    width: 40vw;
-}
-
-.heading {
-    font-size: 4.5rem;
-    text-align: center;
-}
-
-.about-content h2 {
+.exp-txt > h2{
+    font-size: 4rem;
     text-align: left;
-    line-height: 1.2;
 }
 
-.about-content h3 {
+.exp-txt > p{
     font-size: 2rem;
-}
-
-.about-content p {
-    font-size: 1.6rem;
-    margin: 2rem 0 3rem;
+    text-align: left;
 }
 
 
 
 .services {
-    min-height: auto;
-    padding-bottom: 10rem;
+    /* padding-bottom: 10rem; */
+    padding:  2rem 7%;
 }
 
 .services h2 {
     margin-bottom: 5rem;
+    text-align: center;
 }
 
-.services .services-container {
+.services-container {
     display: flex;
     justify-content: center;
     align-items: center;
     flex-wrap: wrap;
-    gap: 2rem;
+    gap: 10rem;
+    margin: 0;
+    padding: 0;
 }
 
-.services-container .services-box {
-    flex: 1 1 30rem;
-    background: var(--bg-color);
-    padding: 3rem 2rem 4rem;
-    border-radius: 2rem;
-    box-shadow: 0 .1rem .5rem var(--shadow-color);
-    text-align: center;
-    border-top: .6rem solid var(--main-color);
-    border-bottom: .6rem solid var(--main-color);
+
+
+ .services-box {
+    /* flex: 1 1 10rem; */
+    text-align: center; 
+    /* border-top: .6rem solid var(--bg-color); */
+    /* border-bottom: .6rem solid var(--bg-color); */
     transition: .5s ease;
 }
 
-.services-container .services-box:hover {
-    box-shadow: 0 .1rem 2rem var(--shadow-color);
+    .services-container .services-box:hover {
+    /* box-shadow: 0 .1rem 1rem var(--bg-color); */
     transform: scale(1.02);
-}
+} 
 
-.services-box i {
-    font-size: 7rem;
-    color: var(--main-color);
+.services-box > img {
+    background: var(--bg-color);
+    padding: 2rem;
+    border-radius: 50%;
+    box-shadow: 0 .1rem .5rem var(--shadow-color);
 }
 
 .services-box h3 {
-    font-size: 2.6rem;
+    font-size: 1rem;
     transition: .5s ease;
+    color: var(--text-color);
+    margin: 1rem;
+    opacity: .7;
 }
 
 .services-box:hover h3 {
-    color: var(--main-color);
-}
+    color: var(--text-color);
+} 
 
-.services-box p {
+ .services-box h3 {
     font-size: 1.6rem;
     margin: 1rem 0 3rem;
-}
-
-.portfolio {
-    min-height: auto;
-    padding-bottom: 10rem;
-}
-
-.portfolio h2 {
-    margin-bottom: 4rem;
-}
-
-.portfolio .portfolio-container {
-    display: grid;
-    grid-template-columns: repeat(3, 1fr);
-    align-items: center;
-    gap: 2.5rem;
-}
-
-.portfolio-container .portfolio-box {
-    position: relative;
-    display: flex;
-    border-radius: 2rem;
-    box-shadow: 0 0 1rem rgba(0, 0, 0, .1);
-    overflow: hidden;
-}
-
-.portfolio-box img {
-    width: 100%;
-    transition: .5s ease;
-}
-
-.portfolio-box:hover img {
-    transform: scale(1.1);
-}
-
-.portfolio-box .portfolio-layer {
-    position: absolute;
-    bottom: 0;
-    left: 0;
-    width: 100%;
-    height: 100%;
-    background: linear-gradient(rgba(0, 0, 0, .1), var(--main-color));
-    color: var(--white-color);
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    flex-direction: column;
-    text-align: center;
-    padding: 0 4rem;
-    opacity: 0;
-    transition: .5s ease;
-}
-
-.portfolio-box:hover .portfolio-layer {
-    opacity: 1;
-}
-
-.portfolio-layer h4 {
-    font-size: 3rem;
-}
-
-.portfolio-layer p {
-    font-size: 1.6rem;
-    margin: .3rem 0 1rem;
-}
-
-.portfolio-layer a {
-    display: inline-flex;
-    justify-content: center;
-    align-items: center;
-    width: 5rem;
-    height: 5rem;
-    background: var(--white-color);
-    border-radius: 50%;
-}
-
-.portfolio-layer a i {
-    font-size: 2rem;
-    color: #333;
-}
-
-
-
-/* NEXT --------------- */
-
-.inner {
-    padding-top: 20px;
-}
-
-.header {
-    text-align: center;
-    color: #fff;
-    padding: 1rem;
-    position: relative;
-}
-
-.header:after {
-    content: "";
-    position: absolute;
-    bottom: 0;
-    left: 50%;
-    transform: translateX(-50%);
-    height: 4px;
-    width: 100px;
-    background-color: #2ecc71;
-    border-radius: 2px;
-}
-
-.container {
-    display: grid;
-    grid-template-columns: repeat(3, 1fr);
-    justify-content: center;
-    align-items: center;
-    grid-gap: 1rem;
-    padding: 1rem 80px;
-    font-size: 1.2rem;
-}
-
-.skill-box {
-    padding: 1rem;
-    color: #ddd;
-    cursor: pointer;
-}
-
-.skill-box:hover >.skill-title:after, .skill-box:hover > .skill-title:before {
-    width: 35px;
-}
-
-.skill-title {
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    padding: 0.5rem;
-    margin-bottom: 0.5rem;
-    position: relative;
-}
-
-.skill-title:after {
-    content: "";
-    position: absolute;
-    bottom: 0;
-    right: 50%;
-    width: 0;
-    height: 4px;
-    border-radius: 2px 0 0 2px;
-    background-color: #2ecc71;
-    transition: .5s;
-}
-
-.skill-title:before {
-    content: "";
-    position: absolute;
-    bottom: 0;
-    left: 50%;
-    width: 0;
-    height: 4px;
-    border-radius: 0 2px 2px 0;
-    background-color: #2ecc71;
-    transition: 0.5s;
-}
-
-.img {
-    width: 90px;
-    height: 90px;
-    position: relative;
-    border-radius: 45px;
-    background-color: #fff;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-}
-
-.img:after {
-    content: "";
-    position: absolute;
-    top: 0;
-    left: 0;
-    width: 50%;
-    height: 90px;
-    background: rgba(100, 100, 100, 0.5);
-    border-radius: 45px 0 0 45px;
-}
-
-.skill-title h3 {
-    color: #fff;
-    margin-top: 0.5rem;
-}
-
-.skill-icon {
-    width: 90px;
-    z-index: -2;
-}
-
-@media screen and (max-width: 990px) {
-    .container{
-        grid-template-columns: repeat(2, 1fr);
-        padding: 2rem 50px;
-    }
-    
-}
-
-@media screen and (max-width: 650px) {
-    .container{
-        grid-template-columns: 1fr;
-    }
-    
-}
-
+} 
