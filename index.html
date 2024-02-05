@@ -4,7 +4,7 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Tech Gees Projecct</title>
+    <title>Tech Gees Project</title>
     <link href='https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css' rel='stylesheet'>
     <link rel="stylesheet" href="main.css">
     <link rel="stylesheet" href="script.js">
@@ -15,23 +15,6 @@
 
  <!-- NAVIGATION/HEADER DESING -->
     <header>
-        <div class="header-1">
-
-            <div class="social-icon">
-               <a href="#"><i class="fa-brands fa-facebook"></i></a>
-               <a href="#"><i class="fa-brands fa-twitter"></i></a>
-               <a href="#"><i class="fa-brands fa-linkedin"></i></a>
-               <a href="#"><i class="fa-brands fa-instagram"></i></a>                
-            </div>
-
-            <div class="login-page">
-                <a class="active" href="">Login</a>
-                <a href="">|</a>
-                <a class="reg" href="">Register</a>
-            </div>
-
-        </div>
-
         <div class="navigations">
             <a href="" class="logo">Artificer</a>
             <nav class="navbar">
@@ -40,7 +23,9 @@
                 <a href="">About Us</a>
                 <a href="">Contact Us</a>
                 <a href="">Services</a>
-                <a href="">Location</a>
+                <a id="active" href="">Login</a>
+                <a href="">|</a>
+                <a class="reg" href="">Register</a>
             </nav>
         </div>
     </header>
@@ -60,26 +45,37 @@
     </div>
 
 <!-- BRIEF ABOUT  SECTION -->
-    <div class="experience">
+    <section class="experience">
         <div class="exp-img">
             <img src="./Assests/images/feature2-image.jpg" alt="">
         </div>
 
         <div class="exp-txt">
             <h2>What is Artificer?</h2>
-            <P>Artificer is an online recruitment platform for skilled workers in Nigeria. 
-                Artificer welcomes all skilled workers, from tailors to plumbers and IT professionals. 
-                We help skilled workers monetize their skills by facilitating access to decent jobs that improve their livelihood.
-                We aim to connect 25 million skilled workers in Africa, particularly women and young people, to decent jobs by 2030.</P>
-                <div class="growth+">
+            <P>We are establishing an online artisans platform 
+                that seamlessly connects skilled artisans with 
+                local markets. Our platform aims to facilitate smooth 
+                interactions between consumers and artisans 
+                by providing them with an online store to showcase and 
+                promote their diverse range of goods and services. This platform 
+                will effectively highlight these offerings to both new and loyal 
+                customers, fostering a thriving marketplace for artisans 
+                and enhancing their visibility in the market.</P>
+                <div class="grow">
+                <div>
                     <h3>500 +</h3>
                     <p>Clients Served</p>
+                 </div> 
+                 <div>
                     <h3>300 +</h3>
                     <p>Active Services</p>
-                </div> 
-                <a href="#" class="btn">More About Us</a>       
+                </div>  
+            </div> 
+                <a href="#" class="btn">More About Us</a>        
         </div>
-    </div>
+    </section>
+
+    
     <!-- services section design -->
     <section class="services" id="services">
         <h2 class="heading">My <span>Services</span></h2>
@@ -122,50 +118,55 @@
                 <h3>cart1</h3>
             </div>
         </div>
+
+
     </section>
-    <section class="our-Clients">
+
+    <section class="our-client">
         <h3>Some of Our Clients</h3>
-        <div class="our-client1">
-            <img src="./Assests/clients/client-1.png" alt="">
-            <img src="./Assests/clients/client-2.png" alt="">
-            <img src="Assests/clients/client-3.png" alt="">
-            <img src="Assests/clients/client-4.png" alt="">
-            <img src="./Assests/clients/client-5.png" alt="">
+        <div class="our-client-1">
+             <div class="client-img"><img src="./Assests/clients/client-1.png" alt=""></div>
+             <div class="client-img"><img src="./Assests/clients/client-2.png" alt=""></div>
+             <div class="client-img"><img src="Assests/clients/client-3.png" alt=""></div>
+             <div class="client-img"><img src="Assests/clients/client-4.png" alt=""></div>
+             <div class="client-img"><img src="./Assests/clients/client-5.png" alt=""></div>
         </div>
     </section>
 
     <footer class="m-foot">
+        <a href="" class="foot-logo">Artificer</a>
         <div class="abt1">
-            <p>Lorem ipsum doloricia. orem ipsum doloricia orem ipsum doloricia orem ipsum doloricia</p>
-            <div class="social-icon">
+            <p>We are establishing an online artisans platform that 
+                seamlessly connects skilled artisans with local markets.
+                Our platform aims to facilitate smooth interactions between 
+                consumers and artisans by providing them with an online 
+                store to showcase and promote their diverse range of goods and services. This platform will effectively highlight these offerings to both new and loyal customers, fostering a thriving 
+                marketplace for artisans and enhancing their visibility in the market.</p>
+        </div>
+
+        <hr style="border: 1px solid #00000067">
+<br>
+        <div class="quick-link1">
+            <nav class="nav-foot">
+                <a href="">Home</a>
+                <a href="">Categories</a>
+                <a href="">About Us</a>
+                <a href="">Contact Us</a>
+                <a href="">Services</a>
+                <a href="">Location</a>
+            </nav>
+        </div>
+
+<br>
+<div class="foot-sos">
+    <p>&copy; Copyright 2024 artificer. All rights reserved</p>
+        <div class="so-icon">
                 <a href="#"><i class="fa-brands fa-facebook"></i></a>
                 <a href="#"><i class="fa-brands fa-twitter"></i></a>
                 <a href="#"><i class="fa-brands fa-linkedin"></i></a>
                 <a href="#"><i class="fa-brands fa-instagram"></i></a>                
              </div>
-        </div>
-
-        <div class="quick-link">
-            <nav class="navbar">
-                <a href="">Home</a>
-                <a href="">Categories</a>
-                <a href="">About Us</a>
-                <a href="">Contact Us</a>
-                <a href="">Services</a>
-                <a href="">Location</a>
-            </nav>
-        </div>
-
-        <div class="service-link">
-            <nav class="navbar">
-                <a href="">Home</a>
-                <a href="">Categories</a>
-                <a href="">About Us</a>
-                <a href="">Contact Us</a>
-                <a href="">Services</a>
-                <a href="">Location</a>
-            </nav>
-        </div>
+     </div>
     </footer>
 
 </body>
