@@ -1,0 +1,50 @@
+body {
+    font-family: 'Sans-serif';
+    margin: 0;
+    padding: 0;
+    background-color: #fee715;
+    color: #101820;
+    line-height: 1.6;
+}
+
+header {
+    background-color: #101820;
+    color: #fdfdfd;
+    text-align: center;
+    padding: 20px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+}
+
+.main {
+    max-width: 1200px;
+    margin: 20px auto;
+    padding: 20px;
+    background-image: url(./Asset\ 1@2x.png);
+    background-size: cover;
+    background-blend-mode: lighten;
+    /* background-color: #fdfdfd; */
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+}
+
+.subsection {
+    width: 400px;
+    margin-bottom: 20px;
+    padding: 20px;
+    background-color: rgba(255, 255, 255, 0.8);
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+footer {
+    background-color: #101820;
+    color: #fdfdfd;
+    text-align: center;
+    padding: 10px;
+    position: fixed;
+    bottom: 0;
+    width: 100%;
+    box-shadow: 0 -4px 8px rgba(0, 0, 0, 0.2);
+}
+
