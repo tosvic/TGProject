@@ -9,10 +9,11 @@
 
 
 :root {
-    --bg-color: #fee715;
+    /* --bg-color: #fee715; */
+    --bg-color: #f3f049fb;
     --text-color: #101820;
     --white-color: #fdfdfd;
-    --shadow-color: rgb(0, 0, 0, .2);
+    --shadow-color: rgba(0, 0, 0, 0.308);
 }
 
 /* .body{
@@ -48,7 +49,7 @@
 .navbar a:hover {
     background: var(--white-color);
     color: var(--text-color);
-    padding: 2.3rem .8rem;
+    padding: 2.8rem .8rem;
 }
 
 #active {
@@ -77,13 +78,13 @@
 
 .con-img img {
     width: 600px;
+    border-radius: 5px;
 }
 
 .con-txt {
     color: var(--text-color);
     align-items: center;
     justify-content: center;
-
 }
 
 .con-txt > h2 {
@@ -115,7 +116,7 @@
 
 .experience {
     display: flex;
-    height: 100vh;
+    height: 90vh;
     padding: 2rem 7%;
     justify-content: space-between;
     align-items: center;
@@ -124,11 +125,12 @@
 
 
 .exp-img img {
-    width: 500px;
+    width: 600px;
+    border-radius: 5px;
 }
 
 .exp-txt > h2 {
-    font-size: 3.5rem;
+    font-size: 3rem;
     text-align: left;
     margin-bottom: 1rem;
 }
@@ -159,8 +161,8 @@
 }
 
 .grow > div > p {
-    color: var(--bg-color);
-    font-weight: 550;
+    color: var(--shadow-color);
+    font-weight: 500;
     padding-bottom: 2rem;
 }
 
@@ -182,9 +184,9 @@
 
 /* Categories */
 .services {
-    height: 80vh;
+    height: 60vh;
     padding: 2rem 7%;
-    background-color: #8080800e;
+    background-color: #80808010;
     flex-wrap: wrap;
 }
 
@@ -223,8 +225,90 @@
     font-size: 1rem;
     font-weight: 600;
 }
+/* End */
+
+
+
+
+/* How it works */
+.how-work {
+    display: flex;
+    height: 70vh;
+    padding: 2rem 7%;
+    justify-content: space-between;
+    align-items: center;
+    text-align: center;
+    gap: 5rem;
+}
+
+.how-sec {
+    margin: 2rem;
+    display: flex;
+    gap: 4rem;
+}
+
+.how-sec > div {
+    background-color: var(--bg-color);
+    padding: 7rem;
+    color: var(--text-color);
+    border-radius: 5px;
+}
+
+.how-sec > div > h3 {
+    font-style: bold;
+    font-size: 1.5rem;
+}
+
+.how-txt {
+    color: var(--text-color);
+    font-size: 1.2rem;
+    text-align: justify;
+}
+
+.how-txt > h2 {
+    font-size: 2.5rem;
+    text-align: left;
+    margin-bottom: 1rem;
+}
 
 /* End */
+
+
+
+
+/* Category */
+.catego {
+    padding: 2rem 7%;
+    text-align: center;
+    flex-wrap: wrap;
+    height: 60vh;
+}
+
+.catego > h3 {
+    margin: 5rem 3rem;
+    font-size: 2.5rem;
+    color: var(--text-color);
+    font-weight: 600;
+}
+
+.catego-1 {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 8rem;
+    flex-wrap: wrap;
+}
+
+.catego-img > img {
+    width: 8rem;
+}
+
+.catego-img > h3 {
+    font-size: 1rem;
+    color: grey;
+}
+/* End */
+
 
 /* partners logos */
 .our-partners {
@@ -258,6 +342,7 @@
     height: 50vh;
 	position: relative;
     padding: 2rem 7%;
+    display: flex;
 }
 
 .slider ul {
@@ -266,8 +351,9 @@
 
 .slider li {
     padding: 3rem;
-    display: flex;
+    /* display: flex; */
     width: 80vw;
+    height: 40vh;
     gap: 2rem;
     border-radius: 5px;
 	position: absolute;
@@ -298,17 +384,11 @@
 
 
 
-
-
-
-
-
-
-
 .m-foot {
     height: 60vh;
     padding: 2rem 7%;
-    background-color: gray;
+    /* background-color: rgba(0, 0, 0, 0.897); */
+    background-color: var(--text-color);
     justify-content: center;
 }
 
@@ -327,6 +407,7 @@
     margin: 2rem;
     line-height: 2rem;
     font-size: 1rem;
+    color: var(--white-color);
 
 }
 
@@ -340,13 +421,13 @@
 .nav-foot a {
     font-size: 1.2rem;
     font-weight: 500;
-    color: var(--text-color);
+    color: var(--white-color);
     margin: 1rem;
     text-align: center;
 }
 
 .nav-foot a:hover {
-    color: var(--white-color);
+    color: var(--bg-color);
 }
 
 .foot-sos {
@@ -356,17 +437,18 @@
 
 .foot-sos>p {
     margin-right: auto;
+    color: var(--white-color);
 }
 
 .so-icon a {
     margin-right: 1rem;
     font-size: 1.5rem;
-    color: var(--text-color);
+    color: var(--white-color);
 }
 
 .so-icon a:hover {
-    background-color: var(--text-color);
-    color: var(--white-color);
+    background-color: var(--bg-color);
+    color: var(--text-color);
     padding: .2rem .5rem;
     border-radius: 5px;
 }
