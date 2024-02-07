@@ -8,8 +8,8 @@ body {
 }
 
 header {
-    background-color: #101820;
-    color: #fdfdfd;
+    background-color: rgba(255, 255, 255, 0.8);
+    color: #101820;
     text-align: center;
     padding: 20px;
     box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
@@ -37,7 +37,7 @@ header {
     box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
 }
 
-footer {
+/* footer {
     background-color: #101820;
     color: #fdfdfd;
     text-align: center;
@@ -47,4 +47,4 @@ footer {
     width: 100%;
     box-shadow: 0 -4px 8px rgba(0, 0, 0, 0.2);
 }
-
+ */
