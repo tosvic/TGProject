@@ -18,8 +18,10 @@ ARTISANS
 
 VISION
  We are developing an online marketplace dedicated to showcasing the unique creations of artisans, empowering them to broaden their customer reach and connect with diverse communities. 
+ 
 MISSION
  Our online marketplace acts as a bridge, connecting craftsmen with the global market and giving them a platform to present their unique works to a global audience.
+ 
 MEET THE TEAM
 1. Adetomisoye Lloyd Badeji
 2. Jumoke Odunsi
@@ -27,9 +29,10 @@ MEET THE TEAM
 4. Rufai Atinuke Ramota
 5. Odeyemi Qudus
 6. Olaniyi Dawodu
+
 PROCESS
-Setup your free professional profile and let clients know you are available to be booked online. Include your rates, services, business hours and work portfolio.
-Manage your business with your personal dashboard. Appointment reminders are sent automatically, and you can curate your gallery.
-Clients search based on service, location, availability, pricing and ratings.
+Set up your free professional profile and let clients know you are available to be booked online. Include your rates, services, business hours and work portfolio.
+Manage your business with your dashboard. Appointment reminders are sent automatically, and you can curate your gallery.
+Clients search based on service, location, availability, pricing, and ratings.
 
 
