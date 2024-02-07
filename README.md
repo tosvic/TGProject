@@ -29,7 +29,7 @@ MISSION
  
 MEET THE TEAM
 1. Adetomisoye Lloyd Badeji
-2. Jumoke Odunsi
+2. OlaJumoke Odunsi
 3. Anuoluwapo Bukola Shaleye
 4. Rufai Atinuke Ramota
 5. Odeyemi Qudus
