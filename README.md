@@ -1,11 +1,16 @@
 ARTIFICIER DOCUMENTATION
 
+
+
 Table of Content
 About Website.
 Vision
 Mission
 Our Team
 Process
+
+
+
 About Website.
 We are establishing an online artisans platform that seamlessly connects skilled artisans with local markets. Our platform aims to facilitate smooth interactions between consumers and artisans by providing them with an online store to showcase and promote their diverse range of goods and services. This platform will effectively highlight these offerings to both new and loyal customers, fostering a thriving marketplace for artisans and enhancing their visibility in the market.
 
