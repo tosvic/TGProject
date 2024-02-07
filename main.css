@@ -182,54 +182,6 @@
 /* End */
 
 
-/* Categories */
-.services {
-    height: 60vh;
-    padding: 2rem 7%;
-    background-color: #80808010;
-    flex-wrap: wrap;
-}
-
-.services  >h2 {
-    text-align: center;
-    font-size: 2.5rem;
-    font-weight: 600;
-    margin-bottom: 3rem;
-}
-
-.service-container {
-    display: flex;
-    gap: 5rem;
-    flex-wrap: wrap;
-    align-items: center;
-    justify-content: center;
-    text-align: center;
-    max-width: 700px;
-    margin: 0 auto;
-}
-
-.services-box h3 {
-    font-size: 1.3rem;
-    color: grey;
-}
-
-.services-box > img {
-    background-color: #fee715;
-    border-radius: 50%;
-    padding: 1rem;
-    width: 80px;
-}
-
-.services,a {
-    text-align: center;
-    font-size: 1rem;
-    font-weight: 600;
-}
-/* End */
-
-
-
-
 /* How it works */
 .how-work {
     display: flex;
@@ -239,6 +191,7 @@
     align-items: center;
     text-align: center;
     gap: 5rem;
+    background-color: #a39f9f04
 }
 
 .how-sec {
@@ -376,8 +329,14 @@
 
 .slider .caption {
 	color: var(--text-color);
-	font-size: 2rem;
+	font-size: 1.5rem;
 	text-align: center;
+    padding: 2rem;
+}
+
+.slider .caption > h4 {
+    padding: 3rem;
+    font-size: 1.3rem;
 }
 
 /* End */
