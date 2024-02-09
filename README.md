@@ -34,6 +34,9 @@ MEET THE TEAM
 4. Rufai Atinuke Ramota
 5. Odeyemi Qudus
 6. Olaniyi Dawodu
+7. Folawe Oluwole
+8. Victor Uhuo
+
 
 PROCESS
 Set up your free professional profile and let clients know you are available to be booked online. Include your rates, services, business hours and work portfolio.
