@@ -1,10 +1,17 @@
 body {
-    font-family: 'Sans-serif';
+    /* font-family: 'Sans-serif';
     margin: 0;
     padding: 0;
     background-color: #fee715;
     color: #101820;
-    line-height: 1.6;
+    line-height: 1.6; */
+        font-family: 'Arial', sans-serif; /* Use a specific font-family */
+        margin: 0;
+        padding: 0;
+        background-color: #fee715; /* Define background color consistently */
+        color: #101820;
+        line-height: 1.6;
+    
 }
 
 header {
@@ -14,6 +21,47 @@ header {
     padding: 20px;
     box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
 }
+/* start header */
+.navigations {
+    display: flex;
+    padding: 2rem 7%;
+    background: var(--text-color);
+    width: 100%;
+    align-items: center;
+    transition: .5s;
+}
+
+.logo {
+    margin-right: auto;
+    font-size: 1.5rem;
+    font-weight: 600;
+    color: var(--white-color);
+}
+
+.navbar a {
+    margin-right: 1.5rem;
+    font-size: 1.2rem;
+    font-weight: 500;
+    color: var(--white-color);
+}
+
+.navbar a:hover {
+    background: var(--white-color);
+    color: var(--text-color);
+    padding: 2.8rem .8rem;
+}
+
+#active {
+    color: var(--white-color);
+    padding: .7rem 1rem;
+    border-radius: 5px;
+    border: 1px solid var(--white-color);
+}
+
+#active:hover {
+    color: var(--text-color);
+}
+/* End navigatioin */
 
 .main {
     max-width: 1200px;
@@ -35,6 +83,100 @@ header {
     padding: 20px;
     background-color: rgba(255, 255, 255, 0.8);
     box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+#members{
+    width: 800px;
+}
+
+.team-members {
+    /* width: 800px; */
+    display: flex;
+    /* flex-wrap: wrap; */
+   
+    gap: 20px; 
+}
+
+
+.team-member {
+    flex: 1 1 300px; 
+    margin: 10px;
+    text-align: center;
+}
+
+.team-member img {
+    max-width: 100%;
+    height: auto;
+    border-radius: 30%; 
+}
+
+
+.m-foot {
+    height: 60vh;
+    padding: 2rem 7%;
+    /* background-color: rgba(0, 0, 0, 0.897); */
+    background-color: var(--text-color);
+    justify-content: center;
+}
+
+
+.foot-logo {
+    font-size: 3rem;
+    font-weight: 600;
+    color: var(--white-color);
+}
+
+/* .abt1 {
+    margin: 2rem;
+} */
+
+.abt1 > p {
+    margin: 2rem;
+    line-height: 2rem;
+    font-size: 1rem;
+    color: var(--white-color);
+
+}
+
+
+.quick-link1 {
+    display: flex;
+    justify-content: center;
+    padding: 3rem;
+}
+
+.nav-foot a {
+    font-size: 1.2rem;
+    font-weight: 500;
+    color: var(--white-color);
+    margin: 1rem;
+    text-align: center;
+}
+
+.nav-foot a:hover {
+    color: var(--bg-color);
+}
+
+.foot-sos {
+    display: flex;
+    align-items: center;
+}
+
+.foot-sos>p {
+    margin-right: auto;
+    color: var(--white-color);
+}
+
+.so-icon a {
+    margin-right: 1rem;
+    font-size: 1.5rem;
+    color: var(--white-color);
+}
+
+.so-icon a:hover {
+    background-color: var(--bg-color);
+    color: var(--text-color);
+    padding: .2rem .5rem;
+    border-radius: 5px;
 }
 
 /* footer {
