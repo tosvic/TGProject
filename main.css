@@ -14,20 +14,16 @@
     --text-color: #101820;
     --white-color: #fdfdfd;
     --shadow-color: rgba(0, 0, 0, 0.308);
+    --box-shadow: 0 .3rem .2rem #101820;
 }
 
-/* .body{
-    background: var(--bg-color);
-    color: var(--text-color);
-} */
 
-
-/* start header */
+/* Start Header */
 .navigations {
     display: flex;
     padding: 2rem 7%;
     background: var(--text-color);
-    width: 100%;
+    width: 100vw;
     align-items: center;
     transition: .5s;
 }
@@ -69,7 +65,8 @@
 .main-container {
     display: flex;
     flex-wrap: wrap;
-    height: 90vh;
+    height: 100vh;
+    width: 100vw;
     padding: 2rem 7%;
     justify-content: space-around;
     align-items: center;
@@ -114,15 +111,16 @@
 /* End Content */
 
 
+/* What is Artificer */
 .experience {
+    height: 100vh;
+    width: 100vw;
     display: flex;
-    height: 90vh;
     padding: 2rem 7%;
     justify-content: space-between;
     align-items: center;
     gap: 4rem;
 }
-
 
 .exp-img img {
     width: 600px;
@@ -133,6 +131,7 @@
     font-size: 3rem;
     text-align: left;
     margin-bottom: 1rem;
+
 }
 
 .exp-txt > p {
@@ -168,16 +167,16 @@
 
 .btn {
     background-color: var(--bg-color);
-    padding: 1.3rem 2rem;
+    padding: 1.3rem 1.5rem;
     border-radius: 5px;
     font-weight: bold;
     color: var(--text-color);
 }
 
 .btn:hover {
-    background-color: var(--text-color);
-    opacity: .3;
-    color: var(--white-color);
+    background-color: var(--bg-color);
+    opacity: .8;
+    color: var(--text-color);
 }
 /* End */
 
@@ -185,13 +184,14 @@
 /* How it works */
 .how-work {
     display: flex;
-    height: 70vh;
+    height: 100vh;
+    width: 100vw;
     padding: 2rem 7%;
     justify-content: space-between;
     align-items: center;
     text-align: center;
     gap: 5rem;
-    background-color: #a39f9f04
+    background-color: #a39f9f10
 }
 
 .how-sec {
@@ -200,16 +200,52 @@
     gap: 4rem;
 }
 
-.how-sec > div {
+.how-sec > div  {
     background-color: var(--bg-color);
-    padding: 7rem;
     color: var(--text-color);
     border-radius: 5px;
+    height: 20rem;
+    width: 15rem;
+    border-bottom-left-radius: 5px;
+    border-bottom-right-radius: 5px;
+    box-shadow: 0 .3rem .2rem var(--text-color);
 }
+
+.child1 {
+    background-image: url(./Assests/artimage/Carpenter.jpg);
+    background-position:center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.child2 {
+    background-image: url(./Assests/artimage/Make\ Up\ Artist.jpg);
+    background-position: 70%;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.child3 {
+    background-image: url(./Assests/artimage/Tailor.jpg);
+    background-position:center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.child4 {
+    background-image: url(./Assests/artimage/worker-sitting-rusty-tubes.jpg);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
 
 .how-sec > div > h3 {
     font-style: bold;
     font-size: 1.5rem;
+    color: var(--bg-color);
+    background-color: #101820b6;
+    box-shadow: 0 .1rem .4rem var(--text-color);
 }
 
 .how-txt {
@@ -223,7 +259,6 @@
     text-align: left;
     margin-bottom: 1rem;
 }
-
 /* End */
 
 
@@ -234,7 +269,8 @@
     padding: 2rem 7%;
     text-align: center;
     flex-wrap: wrap;
-    height: 60vh;
+    height: 100vh;
+    width: 100vw;
 }
 
 .catego > h3 {
@@ -248,8 +284,10 @@
     display: flex;
     justify-content: center;
     align-items: center;
-    gap: 8rem;
+    gap: 10rem;
     flex-wrap: wrap;
+    width: 60vw;
+    margin: auto;
 }
 
 .catego-img > img {
@@ -263,12 +301,72 @@
 /* End */
 
 
+
+/* 
+Testimonial 
+*/
+.slider {
+    height: 70vh;
+    width: 100vw;
+	position: relative;
+    padding: 2rem 7%;
+}
+
+.slider ul {
+	list-style: none;
+}
+
+.slider ul li {
+	display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.slider li {
+    padding: 3rem;
+    width: 80vw;
+    height: 55vh;
+    margin: auto;
+    border-radius: 5px;
+	position: absolute;
+	opacity: 0;
+	transition: opacity 1s ease-in-out;
+    background-color: var(--bg-color);
+
+}
+
+.slider > ul > li > img {
+	height: 100px;
+	width: 100px;
+    border-radius: 50%;
+    background-color: black;
+}
+
+.slider li.active {
+	opacity: 1;
+}
+
+.slider .caption {
+	color: var(--text-color);
+	font-size: 1.5rem;
+	text-align: center;
+    padding: 2rem;
+}
+
+.slider .caption > h4 {
+    padding: 3rem;
+    font-size: 1.3rem;
+}
+/* End */
+
+
 /* partners logos */
 .our-partners {
     padding: 2rem 7%;
     text-align: center;
     flex-wrap: wrap;
-    height: 50vh;
+    height: 60vh;
+    width: 100vw;
 }
 
 .our-partners > h3 {
@@ -291,58 +389,6 @@
 /* End */
 
 
-.slider {
-    height: 50vh;
-	position: relative;
-    padding: 2rem 7%;
-    display: flex;
-}
-
-.slider ul {
-	list-style: none;
-}
-
-.slider li {
-    padding: 3rem;
-    /* display: flex; */
-    width: 80vw;
-    height: 40vh;
-    gap: 2rem;
-    border-radius: 5px;
-	position: absolute;
-	opacity: 0;
-	transition: opacity 1s ease-in-out;
-    background-color: var(--bg-color);
-
-}
-
-.slider > ul > li > img {
-	height: 80px;
-	width: 80px;
-    border-radius: 50%;
-    background-color: black;
-}
-
-.slider li.active {
-	opacity: 1;
-}
-
-.slider .caption {
-	color: var(--text-color);
-	font-size: 1.5rem;
-	text-align: center;
-    padding: 2rem;
-}
-
-.slider .caption > h4 {
-    padding: 3rem;
-    font-size: 1.3rem;
-}
-
-/* End */
-
-
-
 .m-foot {
     height: 60vh;
     padding: 2rem 7%;
@@ -358,16 +404,11 @@
     color: var(--white-color);
 }
 
-.abt1 {
-    /* margin: 2rem; */
-}
-
 .abt1 > p {
     margin: 2rem;
     line-height: 2rem;
     font-size: 1rem;
     color: var(--white-color);
-
 }
 
 
